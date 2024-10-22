@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Logo Builder Demo</title>
+</head>
+
+<body>
+    <h1>Logo Builder</h1>
+    <p>Not so simple from scratch</p>
+
+    <form action="" id="logoform">
+        <p>
+            <label for="brandname">Enter a brand name:</label>
+            <input type="text" id="brandname" placeholder="Brand name" name="brandname">
+        </p>
+        <p>
+            <label for="color">Enter a brand color:</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="fontsize">Select font size:</label>
+            <input type="range" id="fontsize" name="fontsize" min="10" max="200">
+        </p>
+        <input type="submit" value="Generate Logo">
+    </form>
+
+    <section id="results"></section>
+
+    <script src="hh.js"></script>
+</body>
+
+</html>
